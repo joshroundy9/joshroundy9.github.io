@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100%;
+  
+}
+.topnav
+{
+    text-align: center;
+    background-color: rgb(1, 72, 119);
+  overflow: hidden;
+  
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1em;
+    
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .contact
+  {
+    background: url(../images/contact.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: white;
+    padding: 5em 3em 32em 3em;
+    text-align: center;
+    font-size: 1.3em;
+    
+  
+  }

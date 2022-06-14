@@ -25,10 +25,9 @@ body
     background-color: #ddd;
     color: black;
   }
-.story
-{
-    
-    background: url(../images/sunyalbany.jpg) no-repeat center center fixed; 
+  .top{
+   
+    background: url(../images/fern.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,28 +36,20 @@ body
     padding: 5em 3em 10em 3em;
     text-align: center;
     font-size: 1.3em;
-}
-.beginnings
-{
-    background: url(../images/code.jpg) no-repeat center center fixed; 
+    
+  
+  }
+  .rocket{
+   
+    background: url(../images/rocket.jpg) no-repeat left fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     color: white;
-    padding: 7em 3em 7em 3em;
+    padding: 5em 3em 10em 3em;
     text-align: center;
     font-size: 1.3em;
-}
-.today
-{
-    background: url(../images/mountain.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    color: white;
-    padding: 7em 3em 10em 3em;
-    text-align: center;
-    font-size: 1.3em;
-}
+    
+  
+  }
