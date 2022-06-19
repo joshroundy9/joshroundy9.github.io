@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithms</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body
+        {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background: url(../images/fern.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          
+        }
+        input[type=button] {
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        
+        .topnav
+        {
+            text-align: center;
+            background-color: rgb(1, 72, 119);
+          overflow: hidden;
+          
+        }
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 1em 0.9em 1em 0.9em;
+            text-decoration: none;
+            font-size: 1em;
+            -webkit-transition: .2s;
+            transition: color .2s;
+          }
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          .algorithms
+        {
+            text-align: center;
+            background-color: rgb(1, 72, 119);
+          overflow: hidden;
+          
+        }
+        .algorithms a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 1em 0.9em 1em 0.9em;
+            text-decoration: none;
+            font-size: 1em;
+            -webkit-transition: .2s;
+            transition: color .2s;
+          }
+          .algorithms a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          .active{
+            background-color: #ddd;
+            color: black !important;
+            
+          }
+          .button{
+            background: orange;
+            padding:1.5em;
+            outline:none;
+            opacity: 0.8;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            width:15%;
+            float:left;
+            
+          }
+          .rangeTitle{
+            width:16%;
+            color: #ddd;
+            display: inline-block;
+            
+          }
+          .slider{
+            width:45%;
+            -webkit-appearance: none;
+            float:right;
+            vertical-align:middle;
+            height: 15px;
+            border-radius: 5px;  
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            margin-top: 1.8em;
+          }
+      
+
+            .slider::-webkit-slider-thumb {
+             -webkit-appearance: none;
+             appearance: none;
+             width: 25px;
+              height: 25px;
+             border-radius: 50%; 
+             background: orange;
+             cursor: pointer;
+             
+            }
+
+            .slider::-moz-range-thumb { 
+              width: 25px;
+              height: 25px;
+              border-radius: 50%;
+              background: orange;
+              cursor: pointer;
+              
+            }
+
+          .button:hover{
+            opacity: 1;
+          }
+          .controls{
+            
+            padding:0em;
+            width: 50%;
+            background-color: rgb(1, 72, 119);
+          }
+          
+         
+         @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+         {
+          .controls {
+            width: 100%;
+          }
+          .frame {
+            width: 100%;
+          }
+          .button{
+            
+            
+          }
+          .rangeTitle{
+            font-size: 1em;
+          }
+         }
+         @media only screen and (min-device-width : 481px)
+         {
+          .controls {
+            width: 50%;
+          }
+          .frame {
+            width: 50%;
+          }
+          
+         }
+          </style>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a href="../index.html">My Story</a>
+        <a href=".//projects.html">Projects</a>
+        <a href="https://github.com/joshroundy9">GitHub</a>
+        <a href=".//contact.html">Contact</a>
+      
+    </div>
+    <div class="algorithms">
+      <a class="active" href=".//algrorithms.html">Sort</a>
+      <a href=".//binarytree.html">Binary Tree Inversion</a>
+    </div>
+    <div class="controls">
+        <button class="button" id="reset">Reset</button>
+        <button class="button" id="sort">Sort</button>
+        <h3 class="rangeTitle" id="rangeTitle">20 Variables</h3>
+        <input type="range" min="5" max="40" value="20" class="slider" id="slider">
+    </div>
+    <canvas id="frame" class="frame" width="1000" height="800" style="background:FF9900"></canvas>
+   
+    <script src="js/algorithms.js" type="module" ></script>
+
+    </script>
+</body>
+
+</html>

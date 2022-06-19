@@ -16,16 +16,23 @@ body
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0.9em 1em 0.9em;
     text-decoration: none;
     font-size: 1em;
-    
+    -webkit-transition: .2s;
+            transition: color .2s;
   }
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
-  .top{
+  a{
+    color:inherit;
+    text-decoration: inherit;
+    text-decoration: underline;
+    text-underline-position: below;
+  }
+  .algo{
    
     background: url(../images/fern.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -33,7 +40,21 @@ body
   -o-background-size: cover;
   background-size: cover;
     color: white;
-    padding: 5em 3em 10em 3em;
+    padding: 5em 2em 7em 2em;
+    text-align: center;
+    font-size: 1.3em;
+    
+  
+  }
+  .this-website{
+   
+    background: url(../images/fern.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: white;
+    padding: 5em 2em 7em 2em;
     text-align: center;
     font-size: 1.3em;
     
@@ -47,7 +68,7 @@ body
   -o-background-size: cover;
   background-size: cover;
     color: white;
-    padding: 5em 3em 10em 3em;
+    padding: 5em 2em 10em 2em;
     text-align: center;
     font-size: 1.3em;
     
