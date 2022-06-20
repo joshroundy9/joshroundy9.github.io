@@ -32,6 +32,9 @@ body
           .navbutton{
             width: 17%;
           }
+          .story{
+            background: url(../images/sunyalbanycrop.jpg) no-repeat center center fixed !important;
+          }
          }
 .story
 {
