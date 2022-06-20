@@ -32,14 +32,11 @@ body
           .navbutton{
             width: 17%;
           }
-          .story{
-            background: url(../images/sunyalbanycrop.jpg) no-repeat center center fixed !important;
-          }
          }
 .story
 {
     
-    background: url(../images/sunyalbany.jpg) no-repeat center center fixed; 
+    background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

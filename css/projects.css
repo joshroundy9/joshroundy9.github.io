@@ -56,7 +56,7 @@ body
     }
   .algo{
    
-    background: url(../images/fern.jpg) no-repeat center center fixed; 
+    background: url(../images/fern.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,7 +70,7 @@ body
   }
   .this-website{
    
-    background: url(../images/road.jpg) no-repeat center center fixed; 
+    background: url(../images/road.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,7 +84,7 @@ body
   }
   .rocket{
    
-    background: url(../images/rocket.jpg) no-repeat left fixed; 
+    background: url(../images/rocket.jpg) no-repeat left scroll; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
