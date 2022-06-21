@@ -54,6 +54,21 @@ body
       background-color: #ddd;
       color: black;
     }
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+         {
+          
+          .algo {
+            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            text-align: left !important;
+          }
+          .rocket {
+            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            text-align: left !important;
+          }
+          .this-website {
+            text-align: left !important;
+          }
+         }
   .algo{
    
     background: url(../images/fern.jpg) no-repeat center center fixed; 

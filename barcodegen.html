@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algorithms</title>
+    <title>Barcode Generator</title>
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
@@ -12,6 +12,7 @@
         {
             font-family: 'Montserrat', sans-serif;
             margin: 0;
+            background-color: white;
             background: url(../images/fern.jpg) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
@@ -72,56 +73,74 @@
             color: black !important;
             
           }
-          .button{
-            background: orange;
-            padding:1.5em;
-            outline:none;
-            opacity: 0.8;
-            -webkit-transition: .2s;
-            transition: opacity .2s;
-            width:15%;
-            float:left;
-            
-          }
-          .button:hover{
-            opacity: 1;
-          }
-          .controls{
-            
-            padding:0em;
-            width: 50%;
-            background-color: #2f2f2f;
-          }
           
           .frame{
             border: 1px solid black;
+            width: 20%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
           }
+          .title{
+            color: white;
+            font-size: 1.5em;
+            text-align: center;
+            padding: .7em;
+          }
+          .inputbutton{
+            
+            padding: 1.5em;
+            padding-inline: 3em;
+            color: white;
+            background-color: rgb(0, 230, 0);
+            display: block;
+            border: none;
+            font-size: 1em;
+            margin-left: auto;
+            margin-right: auto;
+            cursor: pointer;
+            opacity: 0.9;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+          }
+          .inputbutton:hover{
+            opacity: 1;
+          }
+          input[type=text] {
+          width: 35%;
+           padding: 12px 20px;
+            margin: 8px 0;
+            text-align: center;
+            box-sizing: border-box;
+            border: 3px solid #2f2f2f;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          input[type=text]:focus {
+            border: 3px solid #555;
+          }
+          
          
          @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
          {
-          .controls {
-            width: 100%;
-          }
           .frame {
-            width: 100%;
-          }
-          .rangeTitle{
-            font-size: 1em;
+            width: 50%;
           }
           .navbutton{
             width: 17%;
           }
-         }
-         @media only screen and (min-device-width : 481px)
-         {
-          .controls {
-            width: 50%;
+          input[type=text] {
+          width: 75%;
+           
           }
-          .frame {
-            width: 50%;
+          .inputbutton{
+            padding: 1em;
+            padding-inline: 2em;
           }
-          
          }
+         
           </style>
 </head>
 <body>
@@ -135,14 +154,19 @@
     </div>
     <div class="algorithms">
       <a href=".//algrorithms.html">Array Sort</a>
-      <a class="active" href=".//binarytree.html">Binary Tree Sort</a>
+      <a class="active" href=".//barcodegen.html">Barcode Generator</a>
     </div>
+    <form class="input" id="input" method="post" action="/input"></form>
+      <h1 class="title">Barcode Generator</h1>
     
-    <canvas id="frame" class="frame" width="1000" height="800"></canvas>
-   
-    <script src="js/binarytree.js" type="module" ></script>
+      <input type="text" id="inputbox" name="inputbox" placeholder="Enter text here" />
+      <button type="submit" id="inputbutton" class="inputbutton">Convert</button>
+      
+      <canvas id="barcode" class="frame" width="400" height="250"></canvas>
+      
+  </form>
+  <script src="js/JsBarcode.all.min.js" type="module" ></script>
 
-    </script>
 </body>
 
 </html>

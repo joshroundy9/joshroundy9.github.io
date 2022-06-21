@@ -32,6 +32,16 @@ body
           .navbutton{
             width: 17%;
           }
+          .story {
+            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            text-align: left !important;
+          }
+          .beginnings {
+            text-align: left !important;
+          }
+          .today {
+            text-align: left !important;
+          }
          }
 .story
 {
