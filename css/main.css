@@ -35,13 +35,16 @@ body
           .story {
             background: url(../images/sunyalbanycrop.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
+            
           }
           .beginnings {
             text-align: left !important;
+            background-size: cover !important;
           }
           .today {
             background: url(../images/mountain.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
+            background-size: cover !important;
           }
          }
          

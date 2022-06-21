@@ -58,15 +58,22 @@ body
          {
           
           .algo {
-            background: url(../images/flower.jpg) no-repeat center center scroll !important; 
+            background: url(../images/mountainmobile.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
+            background-size: cover !important;
+            
           }
           .rocket {
             background: url(../images/rocket.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
+            background-size: cover !important;
+            background-position: left top !important;
           }
           .this-website {
+            background: url(../images/road.jpg) no-repeat center center scroll !important; 
+            
             text-align: left !important;
+            background-size: cover !important;
           }
          }
         
