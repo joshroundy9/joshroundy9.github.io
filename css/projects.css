@@ -58,24 +58,25 @@ body
          {
           
           .algo {
-            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            background: url(../images/fern.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
           }
           .rocket {
-            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            background: url(../images/rocket.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
           }
           .this-website {
             text-align: left !important;
           }
          }
+        
   .algo{
    
     background: url(../images/fern.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     padding: 5em 2em 7em 2em;
     text-align: center;
@@ -100,10 +101,10 @@ body
   .rocket{
    
     background: url(../images/rocket.jpg) no-repeat left fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
     padding: 5em 2em 10em 2em;
     text-align: center;

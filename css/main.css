@@ -33,7 +33,7 @@ body
             width: 17%;
           }
           .story {
-            background: url(../images/sunyalbany.jpg) no-repeat center center scroll; 
+            background: url(../images/sunyalbanycrop.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
           }
           .beginnings {
@@ -43,6 +43,7 @@ body
             text-align: left !important;
           }
          }
+         
 .story
 {
     
