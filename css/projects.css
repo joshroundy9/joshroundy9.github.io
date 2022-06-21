@@ -58,7 +58,7 @@ body
          {
           
           .algo {
-            background: url(../images/fern.jpg) no-repeat center center scroll !important; 
+            background: url(../images/flower.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
           }
           .rocket {
@@ -72,7 +72,7 @@ body
         
   .algo{
    
-    background: url(../images/fern.jpg) no-repeat center center fixed; 
+    background: url(../images/flower.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
