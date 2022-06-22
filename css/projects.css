@@ -66,7 +66,7 @@ body
           .rocket {
             background: url(../images/rocket.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
-            background-size: cover !important;
+            background-size: auto 100% !important;
             background-position: left top !important;
           }
           .this-website {
