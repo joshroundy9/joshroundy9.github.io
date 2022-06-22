@@ -39,6 +39,7 @@ body
             background-position: left top !important;
           }
           .beginnings {
+            background: url(../images/code.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
             background-size: cover !important;
             background-position: left top !important;
