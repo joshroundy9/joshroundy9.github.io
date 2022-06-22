@@ -42,7 +42,7 @@ body
             background: url(../images/code.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
             background-size: cover !important;
-            background-position: left top !important;
+            background-position: left !important;
           }
           .today {
             background: url(../images/mountain.jpg) no-repeat center center scroll !important; 
