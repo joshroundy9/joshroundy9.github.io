@@ -50,18 +50,33 @@ function reset()
         bars[i] = Math.floor(Math.random() * (CANVAS_HEIGHT-15))+15;
     }
 
-    update();
+    update(0,0);
     
 }
 
 //redraws every bar and its value text
-function update()
+function update(bar1,bar2)
 {
     c.clearRect(0, 0, canvas.width, canvas.height);
     for(let i =0;i<NUM_OF_BARS;i++)
     {
+        switch(i) {
+            case bar1:
+                c.fillStyle = "#d3d0cf";
+                
+        
+        c.fillRect((BAR_INCREMENT*i),0,BAR_INCREMENT,bars[i]);
+            break;
+
+        case bar2:
+            c.fillStyle = "#908986";
+            c.fillRect((BAR_INCREMENT*i),0,BAR_INCREMENT,bars[i]);
+        break;
+        default:
         c.fillStyle = "WHITE";
         c.fillRect((BAR_INCREMENT*i),0,BAR_INCREMENT,bars[i]);
+        break;
+        }
         c.fillStyle = "BLACK";
         c.font = '12px sans-serif';
         
@@ -83,10 +98,11 @@ async function sort()
             bars[i]=bars[ii];
             bars[ii]=t;
             t=0;
-            update();
+            
             await timer(70);
             
             }
+            update(i,ii);
         }
     }
 }
