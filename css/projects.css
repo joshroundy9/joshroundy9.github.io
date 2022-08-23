@@ -57,7 +57,7 @@ body
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
          {
           .maze {
-            background: url(../images/maze.PNG) no-repeat center center scroll !important; 
+            background: url(../images/maze.jpg) no-repeat center center scroll !important; 
             text-align: left !important;
             background-size: cover !important;
             
@@ -84,7 +84,7 @@ body
         
   .maze{
    
-    background: url(../images/maze.png) no-repeat center center fixed; 
+    background: url(../images/maze.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
